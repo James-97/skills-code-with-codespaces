@@ -4,6 +4,7 @@
   "features": {
     "ghcr.io/devcontainers-extra/features/uv-tool:1": {}
   },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "customizations": {
     "vscode": {
       "extensions": [
